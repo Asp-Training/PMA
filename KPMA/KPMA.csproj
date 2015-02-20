@@ -210,6 +210,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="UpdateProject.aspx" />
     <Content Include="UserLV.aspx" />
     <Content Include="ViewProjectDetails.aspx" />
     <Content Include="ViewProjectsaspx.aspx" />
@@ -384,6 +385,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UpdateProject.aspx.cs">
+      <DependentUpon>UpdateProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateProject.aspx.designer.cs">
+      <DependentUpon>UpdateProject.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserLV.aspx.cs">
       <DependentUpon>UserLV.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

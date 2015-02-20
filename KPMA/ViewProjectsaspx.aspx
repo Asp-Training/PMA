@@ -17,7 +17,10 @@
                             <asp:HyperLinkField DataTextField="ProjectInitials" DataNavigateUrlFields="Id" DataNavigateUrlFormatString="ViewProjectDetails.aspx?Id={0}" HeaderText="Details"  DataTextFormatString ="View {0}"  />
                         </Columns>
                     </asp:GridView>
-                </td>
+                   
+                   <div class="btn-toolbar pull-right"><div class="btn-group"> <asp:Button ID="Button1" runat="server" Text="ADD" OnClientClick="window.open('AddProject.aspx', 'Add Project');" CssClass="btn btn-primary" /></div></div>
+                         <div class="btn-toolbar pull-right"><div class="btn-group">  <asp:Button ID="Button2" runat="server" Text="UPDATE/DELETE" OnClientClick="window.open('UpdateProject.aspx', 'Update Project');" CssClass="btn btn-primary" />
+                        </div></div></td>
             </tr>
         </table>
     </div>
